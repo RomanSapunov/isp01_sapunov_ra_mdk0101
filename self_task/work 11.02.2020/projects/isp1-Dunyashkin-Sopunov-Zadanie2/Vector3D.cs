@@ -19,7 +19,7 @@ namespace isp1_Dunyashkin_Sopunov_Zadanie2
             Z = z;
         }
 
-        public double LengthVector() // ДЛИНА ВЕКТОРА
+        public double Length() // ДЛИНА ВЕКТОРА
         {
             return Math.Sqrt(Math.Pow(X, 2) + Math.Pow(Y, 2) + Math.Pow(Z, 2));
         }
