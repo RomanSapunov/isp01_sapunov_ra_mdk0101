@@ -10,11 +10,11 @@ namespace isp1_dunyashkin_sapunov
     {
         public string Examinator { get; set; }
         public string Examiner { get; set; }
-        public string Date { get; set; }
+        public DateTime Date { get; set; }
         public int Estimation { get; set; }
 
 
-        public Test(string examinator, string examiner, string date, int estimation)
+        public Test(string examinator, string examiner, DateTime date, int estimation)
         {
             Examinator = examinator;
             Examiner = examiner;
@@ -24,7 +24,7 @@ namespace isp1_dunyashkin_sapunov
 
         public override string ToString()
         {
-            return $"ФИО экзаменуемого: {Examinator} \nФИО эказменатора: {Examiner} \nДата: {Date} \nОценка: {Estimation}";
+            return $"ФИО экзаменуемого: {Examinator} \nФИО эказменатора: {Examiner} \nДата: {Date.ToLongDateString()} \nОценка: {Estimation}";
         }
     }
 }
