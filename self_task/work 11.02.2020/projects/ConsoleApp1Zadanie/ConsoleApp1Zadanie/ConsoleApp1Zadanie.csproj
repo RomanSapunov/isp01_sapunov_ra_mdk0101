@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{78416C64-1529-491B-8897-E8F9F9C84C7E}</ProjectGuid>
+    <ProjectGuid>{6567349C-482D-4556-9EF0-4E0DAB3E5B5B}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>isp1_Dunyashkin_Sopunov_Zadanie2</RootNamespace>
-    <AssemblyName>isp1-Dunyashkin-Sopunov-Zadanie2</AssemblyName>
+    <RootNamespace>ConsoleApp1Zadanie</RootNamespace>
+    <AssemblyName>ConsoleApp1Zadanie</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -45,7 +45,6 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Vector3D.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{6C270EE2-297D-49CE-9266-95473E362434}</ProjectGuid>
+    <ProjectGuid>{CD9DFBB9-A21F-4072-B838-2D3C3A16EF83}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>isp1_dunyashkin_sapunov</RootNamespace>
-    <AssemblyName>isp1_dunyashkin_sapunov</AssemblyName>
+    <RootNamespace>ConsoleApp2Zadanie</RootNamespace>
+    <AssemblyName>ConsoleApp2Zadanie</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -32,10 +32,6 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
-  <PropertyGroup>
-    <StartupObject>
-    </StartupObject>
-  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -47,18 +43,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Address.cs" />
-    <Compile Include="Book.cs" />
-    <Compile Include="ComputerGame.cs" />
-    <Compile Include="Employee.cs" />
-    <Compile Include="MonetaryDenomination.cs" />
-    <Compile Include="Product.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Student.cs" />
-    <Compile Include="Test.cs" />
-    <Compile Include="TrainingGroup.cs" />
-    <Compile Include="Workshop.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
